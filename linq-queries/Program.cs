@@ -82,7 +82,11 @@ internal class Program
                           join d in departments on e.DepartmentRid equals d.Rid                         
                           join s in salaries on e.Rid equals s.EmployeeRid 
                           group new{e,d,s} by new {d.Rid, d.Name} into depatment_group
-                          select new { department_Rid = depatment_group.Key.Rid, department_name = depatment_group.Key.Name, Annual_Salary = depatment_group.Sum(_ => _.s.AnnualSalary) };
+                          select new { 
+                                        department_Rid = depatment_group.Key.Rid, 
+                                        department_name = depatment_group.Key.Name, 
+                                        Annual_Salary = depatment_group.Sum(_ => _.s.AnnualSalary) 
+                                    };
         
         Console.WriteLine("Department with annual Salary");
         Console.WriteLine($"{"Rid",5} | {"Name",-10} | {"Annual Salary",15}");
