@@ -28,17 +28,17 @@ namespace linqquries.Data
 
         public List<Salary> Salaries = new List<Salary>{
             new Salary{Rid=1, EmployeeRid = 2, AnnualSalary = 10000000},
-            new Salary{Rid=1, EmployeeRid = 4, AnnualSalary = 12000000},
-            new Salary{Rid=1, EmployeeRid = 6, AnnualSalary = 17000000},
-            new Salary{Rid=1, EmployeeRid = 1, AnnualSalary = 12000000},
-            new Salary{Rid=1, EmployeeRid = 3, AnnualSalary = 10000000},
-            new Salary{Rid=1, EmployeeRid = 5, AnnualSalary = 19000000},
-            new Salary{Rid=1, EmployeeRid = 7, AnnualSalary = 10000000},
-            new Salary{Rid=1, EmployeeRid = 9, AnnualSalary = 8000000},
-            new Salary{Rid=1, EmployeeRid = 11, AnnualSalary = 10000000},
-            new Salary{Rid=1, EmployeeRid = 8, AnnualSalary = 11000000},
-            new Salary{Rid=1, EmployeeRid = 10, AnnualSalary = 20000000},
-            new Salary{Rid=1, EmployeeRid = 10, AnnualSalary = 9000000}
+            new Salary{Rid=2, EmployeeRid = 4, AnnualSalary = 12000000},
+            new Salary{Rid=3, EmployeeRid = 6, AnnualSalary = 17000000},
+            new Salary{Rid=4, EmployeeRid = 1, AnnualSalary = 12000000},
+            new Salary{Rid=5, EmployeeRid = 3, AnnualSalary = 10000000},
+            new Salary{Rid=6, EmployeeRid = 5, AnnualSalary = 19000000},
+            new Salary{Rid=7, EmployeeRid = 7, AnnualSalary = 10000000},
+            new Salary{Rid=8, EmployeeRid = 9, AnnualSalary = 8000000},
+            new Salary{Rid=9, EmployeeRid = 11, AnnualSalary = 10000000},
+            new Salary{Rid=10, EmployeeRid = 8, AnnualSalary = 11000000},
+            new Salary{Rid=11, EmployeeRid = 10, AnnualSalary = 20000000},
+            new Salary{Rid=12, EmployeeRid = 10, AnnualSalary = 9000000}
         };
     }
 }
